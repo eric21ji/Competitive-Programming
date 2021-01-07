@@ -12,7 +12,7 @@ public class Main {
 	static int threeLen;
 	static String target;
 	static int type;
-    static Set<String> visited;
+	static Set<String> visited;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
