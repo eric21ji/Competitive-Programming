@@ -36,7 +36,7 @@ public class Main {
 	
 	public static Set<String> permutations(String str, int len) {
         // Can't test yet, but what's gonna happen is the strings are gonna be too long; gotta hash these like immediately
-        // Keep index of substring instead; Map int:int --> x(hash val):index i. That's how you memoize and keep memory. And save time
+        // Keep index of substring instead; Map int:int --> x(hash val):index i. That's how you memoize and keep memory and save time
 		if(mem.get(str) != null) return mem.get(str);   
 		Set<String> set = new HashSet<>();
 		if(len == 1) {set.add(str); return set;}
